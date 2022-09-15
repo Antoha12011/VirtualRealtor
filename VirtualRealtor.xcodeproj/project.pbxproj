@@ -13,6 +13,10 @@
 		1292FC8B28D362BC000A7F92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1292FC8928D362BC000A7F92 /* Main.storyboard */; };
 		1292FC8D28D362BE000A7F92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1292FC8C28D362BE000A7F92 /* Assets.xcassets */; };
 		1292FC9028D362BE000A7F92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1292FC8E28D362BE000A7F92 /* LaunchScreen.storyboard */; };
+		1292FC9C28D36661000A7F92 /* Acticles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1292FC9B28D36661000A7F92 /* Acticles.swift */; };
+		1292FC9E28D36689000A7F92 /* TableCellArticles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1292FC9D28D36689000A7F92 /* TableCellArticles.swift */; };
+		1292FCA028D366BC000A7F92 /* Complex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1292FC9F28D366BC000A7F92 /* Complex.swift */; };
+		1292FCA228D366D1000A7F92 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1292FCA128D366D1000A7F92 /* TableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		1292FC8C28D362BE000A7F92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1292FC8F28D362BE000A7F92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1292FC9128D362BE000A7F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1292FC9B28D36661000A7F92 /* Acticles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acticles.swift; sourceTree = "<group>"; };
+		1292FC9D28D36689000A7F92 /* TableCellArticles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellArticles.swift; sourceTree = "<group>"; };
+		1292FC9F28D366BC000A7F92 /* Complex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Complex.swift; sourceTree = "<group>"; };
+		1292FCA128D366D1000A7F92 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +49,10 @@
 			isa = PBXGroup;
 			children = (
 				1292FC8228D362BC000A7F92 /* VirtualRealtor */,
+				1292FC9A28D365D8000A7F92 /* ViewControllers */,
+				1292FC9928D365CE000A7F92 /* Complex */,
+				1292FC9828D365C3000A7F92 /* Articles */,
+				1292FC9728D365B6000A7F92 /* Other */,
 				1292FC8128D362BC000A7F92 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,15 +68,47 @@
 		1292FC8228D362BC000A7F92 /* VirtualRealtor */ = {
 			isa = PBXGroup;
 			children = (
-				1292FC8328D362BC000A7F92 /* AppDelegate.swift */,
-				1292FC8528D362BC000A7F92 /* SceneDelegate.swift */,
 				1292FC8728D362BC000A7F92 /* ViewController.swift */,
 				1292FC8928D362BC000A7F92 /* Main.storyboard */,
 				1292FC8C28D362BE000A7F92 /* Assets.xcassets */,
-				1292FC8E28D362BE000A7F92 /* LaunchScreen.storyboard */,
 				1292FC9128D362BE000A7F92 /* Info.plist */,
 			);
 			path = VirtualRealtor;
+			sourceTree = "<group>";
+		};
+		1292FC9728D365B6000A7F92 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1292FC8E28D362BE000A7F92 /* LaunchScreen.storyboard */,
+				1292FC8528D362BC000A7F92 /* SceneDelegate.swift */,
+				1292FC8328D362BC000A7F92 /* AppDelegate.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		1292FC9828D365C3000A7F92 /* Articles */ = {
+			isa = PBXGroup;
+			children = (
+				1292FC9D28D36689000A7F92 /* TableCellArticles.swift */,
+				1292FC9B28D36661000A7F92 /* Acticles.swift */,
+			);
+			path = Articles;
+			sourceTree = "<group>";
+		};
+		1292FC9928D365CE000A7F92 /* Complex */ = {
+			isa = PBXGroup;
+			children = (
+				1292FCA128D366D1000A7F92 /* TableCell.swift */,
+				1292FC9F28D366BC000A7F92 /* Complex.swift */,
+			);
+			path = Complex;
+			sourceTree = "<group>";
+		};
+		1292FC9A28D365D8000A7F92 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +183,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1292FC8828D362BC000A7F92 /* ViewController.swift in Sources */,
+				1292FC9E28D36689000A7F92 /* TableCellArticles.swift in Sources */,
+				1292FC9C28D36661000A7F92 /* Acticles.swift in Sources */,
+				1292FCA228D366D1000A7F92 /* TableCell.swift in Sources */,
 				1292FC8428D362BC000A7F92 /* AppDelegate.swift in Sources */,
+				1292FCA028D366BC000A7F92 /* Complex.swift in Sources */,
 				1292FC8628D362BC000A7F92 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
