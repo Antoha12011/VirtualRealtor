@@ -12,7 +12,7 @@
         <!--Detail View Controller-->
         <scene sceneID="di2-9I-Es5">
             <objects>
-                <viewController id="yqc-rS-fp8" customClass="DetailViewController" customModule="VR2" sceneMemberID="viewController">
+                <viewController id="yqc-rS-fp8" customClass="DetailViewController" customModule="VirtualRealtor" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bRs-25-rhW"/>
                         <viewControllerLayoutGuide type="bottom" id="SxJ-R3-Ty8"/>
@@ -70,7 +70,7 @@
         <!--Map View Controller-->
         <scene sceneID="RnC-69-A85">
             <objects>
-                <viewController id="fhG-B0-iZe" customClass="MapViewController" customModule="VR2" sceneMemberID="viewController">
+                <viewController id="fhG-B0-iZe" customClass="MapViewController" customModule="VirtualRealtor" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iot-38-Uf1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -117,7 +117,7 @@
         <!--Articles Table View Controller-->
         <scene sceneID="DEC-YC-WXD">
             <objects>
-                <tableViewController id="wp2-6p-kVH" customClass="ArticlesTableViewController" customModule="VR2" sceneMemberID="viewController">
+                <tableViewController id="wp2-6p-kVH" customClass="ArticlesTableViewController" customModule="VirtualRealtor" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="u5S-JF-JNb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -168,7 +168,7 @@
         <!--Разработчик-->
         <scene sceneID="kUd-mx-EeK">
             <objects>
-                <viewController id="vgQ-vo-Ue4" customClass="AboutAppViewController" customModule="VR2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vgQ-vo-Ue4" customClass="AboutAppViewController" customModule="VirtualRealtor" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rtB-TB-RK7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -223,7 +223,7 @@
         <!--Detail Articles View Controller-->
         <scene sceneID="10F-YA-L78">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="n9w-ox-9WC" customClass="DetailArticlesViewController" customModule="VR2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="n9w-ox-9WC" customClass="DetailArticlesViewController" customModule="VirtualRealtor" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tBy-9P-yUc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -273,7 +273,7 @@
         <!--Комплесы-->
         <scene sceneID="SvM-Es-IWZ">
             <objects>
-                <tableViewController id="uqW-Y7-Jca" userLabel="Комплесы" customClass="ComplexTableViewController" customModule="VR2" sceneMemberID="viewController">
+                <tableViewController id="uqW-Y7-Jca" userLabel="Комплесы" customClass="ComplexTableViewController" customModule="VirtualRealtor" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" id="FYh-oS-fRr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
