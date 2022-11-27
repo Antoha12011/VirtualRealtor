@@ -116,11 +116,11 @@
 		1292FC9A28D365D8000A7F92 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				1292FCAD28D36799000A7F92 /* DetailArticlesViewController.swift */,
-				1292FCAB28D36788000A7F92 /* ArticlesTableViewController.swift */,
 				1292FCA928D36773000A7F92 /* MapViewController.swift */,
-				1292FCA728D36762000A7F92 /* DetailViewController.swift */,
 				1292FCA528D3674F000A7F92 /* ComplexTableViewController.swift */,
+				1292FCA728D36762000A7F92 /* DetailViewController.swift */,
+				1292FCAB28D36788000A7F92 /* ArticlesTableViewController.swift */,
+				1292FCAD28D36799000A7F92 /* DetailArticlesViewController.swift */,
 				1292FCA328D3673C000A7F92 /* AboutAppViewController.swift */,
 			);
 			path = ViewControllers;
